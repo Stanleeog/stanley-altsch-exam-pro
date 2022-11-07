@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { LoginContext } from "../Contexts/LoginContext";
+import { LoginContext } from "../contexts/LoginContext";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import axios from "axios";
 
